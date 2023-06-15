@@ -1,0 +1,64 @@
+name: amare
+description: Amàre hotels radio app
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: 0.13.4
+
+  just_audio: ^0.9.5
+  just_audio_background: ^0.0.1-beta.7
+  audio_video_progress_bar: ^0.9.0
+  audio_session: ^0.1.8
+
+  flutter_html: ^2.2.1
+
+  cupertino_icons: ^1.0.2
+  intl: ^0.17.0
+  url_launcher: ^6.1.4
+  fluttertoast: ^8.0.9
+  rxdart: ^0.27.4
+  country_picker: ^2.0.15
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo_amare.png
+    - assets/images/bg_splash.png
+    - assets/images/bg_leaves_1.png
+    - assets/images/bg_leaves_2.png
+
+    - assets/images/placeholder.png
+
+    - assets/images/map_amare_ibiza.png
+    - assets/images/map_amare_marbella.png
+
+    - assets/icons/icon_drawer_play.png
+    - assets/icons/icon_drawer_podcast.png
+    - assets/icons/icon_drawer_contact.png
+    - assets/icons/icon_drawer_toggle.png
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/montserrat/Montserrat-Regular.ttf
+        - asset: assets/fonts/montserrat/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/montserrat/Montserrat-Bold.ttf
+          weight: 700
